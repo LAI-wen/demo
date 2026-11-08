@@ -1,0 +1,26 @@
+[
+  {
+    "key": "genryu",
+    "name": "GenRyuMin2TW-R",
+    "source": "https://raw.githubusercontent.com/ButTaiwan/genryu-font/030cd4fa3dd6b0607c5e7f35f13977a2e0a10522/otf/TW/GenRyuMin2TW-R.otf",
+    "commit": "030cd4fa3dd6b0607c5e7f35f13977a2e0a10522",
+    "license": "OFL-1.1",
+    "conversion": "Full glyph set retained; WOFF2 container conversion only."
+  },
+  {
+    "key": "genwan",
+    "name": "GenWanMin2TW-R",
+    "source": "https://raw.githubusercontent.com/ButTaiwan/genwan-font/25e718615173a3b51099ecc9a6bf4fa558c03fbc/otf/TW/GenWanMin2TW-R.otf",
+    "commit": "25e718615173a3b51099ecc9a6bf4fa558c03fbc",
+    "license": "OFL-1.1",
+    "conversion": "Full glyph set retained; WOFF2 container conversion only."
+  },
+  {
+    "key": "genyo",
+    "name": "GenYoGothic2TW-R",
+    "source": "https://raw.githubusercontent.com/ButTaiwan/genyog-font/1f06b99e2ca9ba1aa06dc26701e1a900ffa57a91/otf/TW/GenYoGothic2TW-R.otf",
+    "commit": "1f06b99e2ca9ba1aa06dc26701e1a900ffa57a91",
+    "license": "OFL-1.1",
+    "conversion": "Full glyph set retained; WOFF2 container conversion only."
+  }
+]

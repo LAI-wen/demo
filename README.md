@@ -29,3 +29,13 @@ URL=http://127.0.0.1:32882 node scripts/check-showcase.cjs
 驗證：`URL=http://127.0.0.1:32882 node scripts/check-loading.cjs`。包含正常載入、減少動態、錯誤及等待過久後恢復。
 
 這仍是單檔互動原型：品牌／聯絡資訊是示意，後台只存本機瀏覽器。正式框架、真正登入、多人共用資料及正式品牌內容，待方向確認後另行實作。
+
+## 字體與品牌色試玩室
+
+獨立頁面：https://lai-wen.github.io/demo/style-lab/
+
+15 種已核對 OFL 授權的中文字體，可分別選標題／內文、改品牌名稱與文案、試 HEX 配色，並複製風格配方。內建三組推薦；字體按需載入並顯示成功／回退狀態。手機提供設定／預覽切換入口。自備字體只在分頁記憶體處理，不上傳或保存；Google Fonts 僅用固定字體名稱，沒有 text= 文案傳送。原展示首頁與品牌設定未修改。
+
+字體來源、固定 commit、授權及容量見 `style-lab/FONT-LICENSES.md` 與 `style-lab/fonts/sources.json`。自託管完整繁中字體首次選取較大（約7–14 MB），不一次載入全部。
+
+測試：`URL=http://127.0.0.1:32884/style-lab/ node scripts/check-style-lab.cjs`。Chromium/WebKit ×320/393/768/1280，涵蓋控制、文字安全、對比提醒、配方與重設。另逐一驗證15套字體、實際繪製字體、下載失敗/重試、本機字體上傳錯誤及手機跳轉。非iPhone真機驗收。
